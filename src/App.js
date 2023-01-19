@@ -1,10 +1,14 @@
 import './App.css';
-import List from './components/2.9.List/List';
+import ControlledComponent from './components/2-10.Form/ControlledComponent';
+import ControlMultiInputs from './components/2-10.Form/ControlMultiInputs';
+import UncontrolledComponent from './components/2-10.Form/UncontrolledComponent';
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <UncontrolledComponent />
+      <ControlledComponent />
+      <ControlMultiInputs />
     </div>
   );
 }
